@@ -7,6 +7,7 @@ import Home from './components/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Signin from './pages/Signin';
+import Signup from './pages/Signup';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 
@@ -48,7 +49,7 @@ function App() {
             path="/Signup"
             element={
               <div className="page-transition">
-                <h1>Sign Up Page</h1>
+                <Signup />
               </div>
             }
           />
