@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form action="/login" method="POST">
+            <h1>Login Now</h1>
+            <input type="text" name="email" placeholder="Email" value="<%=locals.email%>">
+            <input type="password" name="password" placeholder="Password">
+            <p class="error"><%= locals.message %></p>
+            <button type="submit">Login</button>
+        </form>
+    </main>
+</body>
+</html>

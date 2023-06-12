@@ -14,6 +14,7 @@ function Navbar() {
         <li><NavLink to="/contact">Contact</NavLink></li>
         <li><NavLink to="/Signup">Sign Up</NavLink></li>
         <li><NavLink to="/Signin">Sign In</NavLink></li>
+        <li><NavLink to="/Profile">Profile</NavLink></li>
       </ul>
     </nav>
   );

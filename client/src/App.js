@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './Navigation';
+import Navigation from './Navigation';
 import Footer from './Footer';
 
 import Home from './components/Home';
@@ -10,15 +10,43 @@ import Signin from './pages/Signin';
 import Signup from './pages/Signup';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
+import Profile from './pages/Profile';
+import Test from './pages/Test';
 
 import './animation.css';
 import './App.css';
+import { Toaster } from 'react-hot-toast';
+// import { use } from 'passport';
+import axios from 'axios';
+import { Context, server } from './index';
+import { set } from 'mongoose';
 
 function App() {
+  const [loading, setLoading] = React.useState(true);
+  const {setUser, setisAuthenticated } = React.useContext(Context);
+
+  useEffect(() => {
+    setLoading(true);
+    axios
+      .get(`${server}/users/me`, {
+        withCredentials: true,
+      })
+      .then((res) => {
+        setUser(res.data.user);
+        setisAuthenticated(true);
+        setLoading(false);
+      })
+      .catch((error) => {
+        setUser({});
+        setisAuthenticated(false);
+        setLoading(false);
+      });
+  }, []);
+
   return (
     <Router>
       <div className="App">
-        <Navbar />
+      <Navigation />
         <Routes>
           <Route
             exact
@@ -71,6 +99,15 @@ function App() {
           />
 
           <Route
+            path="/Test"
+            element={
+              <div className="page-transition">
+                <Test />
+              </div>
+            }
+          />
+
+          <Route
             path="/Privacy"
             element={
               <div className="page-transition">
@@ -86,7 +123,16 @@ function App() {
               </div>
             }
           />
+          <Route
+            path="/Profile"
+            element={ 
+              <div className="page-transition">
+                <Profile />
+              </div>
+            }
+          />
         </Routes>
+        <Toaster />
         <Footer />
       </div>
     </Router>

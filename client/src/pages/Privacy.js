@@ -21,51 +21,41 @@ from 'mdb-react-ui-kit';
 export default function Privacy() {
     return (
       <div>
-        
+
         <MDBContainer fluid>
         <MDBCard className='text-black m-5' style={{borderRadius: '25px'}}>
         <MDBCardBody>
         <MDBTypography className='lead mb-0'>
-          <font size="3" face='sans-serif'>
-            <p><MDBTypography tag='div' className='display-6'>About Us</MDBTypography></p>
-            <p>
-              Welcome to our website! We are a team of passionate individuals committed to revolutionizing the healthcare industry. Our objective is to provide easy access to automated tests and resources, with personalized care at your fingertips.
-              Our website is built using the latest technologies including React + Tailwind CSS, Express, and either MongoDB or PostgreSQL for the database. It's easy to navigate and simple to use, with a beautiful design that captures the essence of modern healthcare.</p>
-            <p>
-              On the home page, you'll find a stunning carousel of images that showcases our commitment to innovation and excellence. From there, you can easily access our sign-up page where you can create your account and start exploring our features.
-              Once you log in, you'll be greeted by a sleek sidebar that gives you access to all the tools you need. You can update your details, take automated tests, access resources, view your test history, and even see doctor remarks if you're an admin. Our platform is intuitive and user-friendly, making it easy to navigate and use, no matter your experience with technology.
-              We are dedicated to your care and ensuring that you receive the best possible treatment. Our team of experts has worked tirelessly to build a platform that is both easy to use and comprehensive in its offerings. We are committed to keeping up with the latest advancements in healthcare and providing the most innovative solutions to our users.
-            </p>
-            <p>
-              Our footer is filled with useful links and details, making it easy for you to find what you need. And for admin purposes, we have an easy-to-use login page where you can access the dashboard and manage your account.
-              We hope you enjoy using our platform and welcome you to our community of health and wellness.
-            </p>
-          </font>
-      </MDBTypography>
-
-      <MDBAccordion initialActive={1}>
-      <MDBAccordionItem collapseId={1} headerTitle='Accordion Item #1'>
-        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
-        plugin adds the appropriate classes that we use to style each element. These classes control the overall
-        appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-        custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
-        within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </MDBAccordionItem>
-      <MDBAccordionItem collapseId={2} headerTitle='Accordion Item #2'>
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
-        plugin adds the appropriate classes that we use to style each element. These classes control the overall
-        appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-        custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
-        within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </MDBAccordionItem>
-      <MDBAccordionItem collapseId={3} headerTitle='Accordion Item #3'>
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
-        plugin adds the appropriate classes that we use to style each element. These classes control the overall
-        appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-        custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
-        within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </MDBAccordionItem>
-    </MDBAccordion>
+              <font size='3' face='sans-serif'>
+                <p>
+                  <MDBTypography tag='div' className='display-6'>Privacy Policy</MDBTypography>
+                </p>
+                <p>
+                  Welcome to HealthSense, the ultimate e-healthcare website where we strive to provide the best possible experience to our users. Our platform offers a comprehensive range of healthcare services, including automated medical tests powered by state-of-the-art AI technology, live world medical insights, and personalized medical records management.
+                </p>
+                <p>
+                  At HealthSense, we understand the importance of efficient and convenient healthcare services, which is why we have developed a user-friendly platform that enables individuals to access healthcare services with ease. Our website features a simple and intuitive interface that allows users to create profiles and manage their health records effortlessly.
+                </p>
+                <p>
+                  HealthSense is an e-healthcare website that provides a platform for individuals to create and manage their health profiles. One of our core features is our profile management system, which allows users to easily store and manage their medical records. With HealthSense, users can access their medical history and track their progress over time, making it easier to manage their health effectively.
+                </p>
+                <p>
+                  Our automated medical tests are another key feature of HealthSense. We use advanced AI technology to provide users with accurate and reliable medical test results. Our tests are simple to use, and users can upload images of their medical conditions to receive results quickly and easily. This feature saves users time and effort, enabling them to manage their health more efficiently.
+                </p>
+                <p>
+                  HealthSense provides live world medical insights on our home page. This feature allows users to stay up-to-date with the latest medical news, trends, and research findings from around the world. We believe that access to up-to-date medical information is essential to making informed decisions about health and well-being. Our platform is designed to provide users with a comprehensive source of medical information that they can rely on.
+                </p>
+                <p>
+                  Our doctor integration feature is a valuable asset for registered users on HealthSense. This feature allows doctors to access patient profiles and medical records, enabling them to provide faster and more efficient healthcare services. Our platform is designed to provide a seamless healthcare experience for users, and our doctor integration feature is an essential part of this. We are committed to making healthcare more accessible and efficient for everyone, and our doctor integration feature is just one way we achieve this.
+                </p>
+                <p>
+                  Your privacy is important to us. When you use HealthSense, we may collect certain personal information for the purpose of providing and improving our services. We handle your personal information in accordance with our Privacy Policy, which outlines how we collect, use, disclose, and protect your information. By using HealthSense, you agree to our Privacy Policy.
+                </p>
+                <p>
+                  For more details about our privacy practices, please read our full Privacy Policy.
+                </p>
+              </font>
+            </MDBTypography>
 
       </MDBCardBody>
       </MDBCard>

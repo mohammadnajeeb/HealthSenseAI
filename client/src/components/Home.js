@@ -47,7 +47,7 @@ function Home() {
           AI Health Diagnostic
         </MDBBtn>
         </a>
-        <a href='/Signin'>
+        <a href='/Signup'>
         <MDBBtn rounded color='secondary' size='lg' className='m-3'>
           Register Now
         </MDBBtn>

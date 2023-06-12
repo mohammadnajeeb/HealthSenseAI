@@ -10,7 +10,7 @@ import {
 
 export default function App() {
   return (
-    <MDBFooter className='text-center text-white' style={{ backgroundColor: '#f1f1f1' }}>
+    <MDBFooter className='text-center text-white static-bottom' style={{ backgroundColor: '#f1f1f1'}}>
       <MDBContainer className='pt-1'>
         <section className='mb-1'>
           <MDBBtn

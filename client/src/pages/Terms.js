@@ -27,45 +27,48 @@ export default function Terms() {
         <MDBCardBody>
         <MDBTypography className='lead mb-0'>
           <font size="3" face='sans-serif'>
-            <p><MDBTypography tag='div' className='display-6'>About Us</MDBTypography></p>
-            <p>
-              Welcome to our website! We are a team of passionate individuals committed to revolutionizing the healthcare industry. Our objective is to provide easy access to automated tests and resources, with personalized care at your fingertips.
-              Our website is built using the latest technologies including React + Tailwind CSS, Express, and either MongoDB or PostgreSQL for the database. It's easy to navigate and simple to use, with a beautiful design that captures the essence of modern healthcare.</p>
-            <p>
-              On the home page, you'll find a stunning carousel of images that showcases our commitment to innovation and excellence. From there, you can easily access our sign-up page where you can create your account and start exploring our features.
-              Once you log in, you'll be greeted by a sleek sidebar that gives you access to all the tools you need. You can update your details, take automated tests, access resources, view your test history, and even see doctor remarks if you're an admin. Our platform is intuitive and user-friendly, making it easy to navigate and use, no matter your experience with technology.
-              We are dedicated to your care and ensuring that you receive the best possible treatment. Our team of experts has worked tirelessly to build a platform that is both easy to use and comprehensive in its offerings. We are committed to keeping up with the latest advancements in healthcare and providing the most innovative solutions to our users.
-            </p>
-            <p>
-              Our footer is filled with useful links and details, making it easy for you to find what you need. And for admin purposes, we have an easy-to-use login page where you can access the dashboard and manage your account.
-              We hope you enjoy using our platform and welcome you to our community of health and wellness.
-            </p>
-          </font>
-      </MDBTypography>
-
-      <MDBAccordion initialActive={1}>
-      <MDBAccordionItem collapseId={1} headerTitle='Accordion Item #1'>
-        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
-        plugin adds the appropriate classes that we use to style each element. These classes control the overall
-        appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-        custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
-        within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </MDBAccordionItem>
-      <MDBAccordionItem collapseId={2} headerTitle='Accordion Item #2'>
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
-        plugin adds the appropriate classes that we use to style each element. These classes control the overall
-        appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-        custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
-        within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </MDBAccordionItem>
-      <MDBAccordionItem collapseId={3} headerTitle='Accordion Item #3'>
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
-        plugin adds the appropriate classes that we use to style each element. These classes control the overall
-        appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-        custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
-        within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </MDBAccordionItem>
-    </MDBAccordion>
+            <p><MDBTypography tag='div' className='display-6'>Terms of Use</MDBTypography>
+                </p>
+                <p>
+                  Welcome to HealthSense! These Terms of Use govern your use of our website and services. By accessing or using HealthSense, you agree to be bound by these Terms of Use. Please read them carefully before using our website.
+                </p>
+                <p>
+                  1. Acceptance of Terms: By accessing or using HealthSense, you acknowledge that you have read, understood, and agree to be bound by these Terms of Use. If you do not agree to these terms, you may not use our website and services.
+                </p>
+                <p>
+                  2. User Responsibilities: You are responsible for maintaining the confidentiality of your account information, including your username and password. You are also responsible for any activity that occurs under your account.
+                </p>
+                <p>
+                  3. Prohibited Activities: You agree not to engage in any of the following prohibited activities while using HealthSense:
+                  - Violating any applicable laws or regulations
+                  - Impersonating any person or entity
+                  - Posting or transmitting any content that is unlawful, harmful, defamatory, obscene, or otherwise objectionable
+                  - Interfering with or disrupting the operation of HealthSense
+                  - Collecting or storing personal data about other users without their consent
+                </p>
+                <p>
+                  4. Intellectual Property: The content and materials available on HealthSense, including text, graphics, images, logos, and software, are protected by intellectual property rights. You may not copy, distribute, or create derivative works from any content on HealthSense without our prior written consent.
+                </p>
+                <p>
+                  5. Privacy: We collect and handle personal information in accordance with our Privacy Policy. By using HealthSense, you consent to the collection, use, and disclosure of your personal information as described in our Privacy Policy.
+                </p>
+                <p>
+                  6. Disclaimer: HealthSense is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
+                </p>
+                <p>
+                  7. Limitation of Liability: We disclaim any liability for any damages or injuries arising out of your use of HealthSense. In no event shall we be liable for any direct, indirect, incidental, consequential, or special damages.
+                </p>
+                <p>
+                  8. Governing Law: These Terms of Use shall be governed by and construed in accordance with the laws of [your jurisdiction].
+                </p>
+                <p>
+                  9. Changes to Terms: We may revise these Terms of Use at any time without prior notice. By continuing to use HealthSense after any changes, you agree to be bound by the revised Terms of Use.
+                </p>
+                <p>
+                  If you have any questions about these Terms of Use, please contact us at [contact email].
+                </p>
+              </font>
+            </MDBTypography>
 
       </MDBCardBody>
       </MDBCard>
