@@ -107,7 +107,3 @@ Contributions are welcome! Please follow these guidelines when contributing to t
 
 This project is licensed under the [MIT License](LICENSE).
 ```
-
-Make sure to replace the placeholder file names (`homepage.png`, `registration.png`, etc.) with the actual names of your screenshots. Additionally, ensure that the screenshots are stored in a folder named `screenshots` within your project repository.
-
-Also, remember to update the project-specific information such as the repository URL, database configuration, and environment variables according to your project setup.
