@@ -2,12 +2,21 @@ import {Task} from '../models/task.js';
 
 export const newTask = async (req, res,next) => {
     
-    const {title,description} = req.body;
+    const {title, description, medicalHistory, familyHistory, lifestyle, vitalSigns, allergies, medication, immunizations, testResults, emergencyContacts} = req.body;
     
     await Task.create({
         title,
-        description,
-        user: req.existingUser,
+      description,
+      user: req.existingUser,
+      medicalHistory,
+      familyHistory,
+      lifestyle,
+      vitalSigns,
+      allergies,
+      medication,
+      immunizations,
+      testResults,
+      emergencyContacts,
     });
 
     res.status(201).json({

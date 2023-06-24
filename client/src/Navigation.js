@@ -76,7 +76,7 @@ export default function App() {
             </MDBNavbarItem>
 
             <MDBNavbarItem>
-                <MDBNavbarLink href='/Test'>
+                <MDBNavbarLink href='/Test2'>
                     <MDBBtn rounded className='text-light' color='tertiary' rippleColor='link'>
                         Automated_Test
                     </MDBBtn>

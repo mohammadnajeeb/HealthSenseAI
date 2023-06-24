@@ -12,6 +12,7 @@ import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 import Profile from './pages/Profile';
 import Test from './pages/Test';
+import Test2 from './pages/Test2';
 
 import './animation.css';
 import './App.css';
@@ -128,6 +129,14 @@ function App() {
             element={ 
               <div className="page-transition">
                 <Profile />
+              </div>
+            }
+          />
+          <Route
+            path="/Test2"
+            element={ 
+              <div className="page-transition">
+                <Test2 />
               </div>
             }
           />
